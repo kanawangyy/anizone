@@ -7,7 +7,7 @@ if ('serviceWorker' in navigator) {
 const API_BASE = '/api'; 
 
 // --- INDEXEDDB UNTUK HISTORY & FAVORITE ---
-const DB_NAME = 'AniZoneDB';
+const DB_NAME = 'NimeStreamDB';
 const STORE_HISTORY = 'history';
 const STORE_FAV = 'favorites';
 
@@ -390,4 +390,4 @@ function renderSection(title, data, container) {
     container.appendChild(sectionDiv);
 }
 
-async f
+asyn
